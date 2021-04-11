@@ -1,335 +1,389 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 .logo {
-    height: 200px;
-    -webkit-transition: 1s linear;
-    transition: 1s linear; }
-  
-  .logo:hover {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); }
-  
-  .header {
-    min-width: 100%;
-    min-height: 100vh;
-    background-image: url(../Imagenes/header2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed; }
-  
-  .bg-dark {
-    z-index: 20;
-    width: 100%; }
-  
-  .custom-alert {
-    background-color: rgba(226, 222, 3, 0.575);
-    text-align: center;
-    color: black;
-    border: none; }
-  
-  .custom-alert a {
-    text-decoration: none;
-    color: black; }
-  
-  .anclas {
-    color: white;
-    text-decoration: none;
-    font-family: "Gochi Hand", cursive;
-    font-size: 1.3em;
-    margin: 15px;
-    text-transform: uppercase;
-    transition: all 0.8s;
-    transform: scale(1.1); }
-  
-  .navbar-light .navbar-nav .nav-link {
-    color: white; }
-  
-  .navbar-light .navbar-nav .nav-link:hover {
-    color: white; }
-  
-  .navbar-light .navbar-toggler {
-    color: white;
-    border-color: white; }
-  
-  .anclas:hover {
-    background-color: #111107;
-    transition: all 0.8s;
-    transform: scale(1.2); }
-  
-  .text-header {
-    min-height: 60vh;
-    color: #111107;
-    -webkit-text-stroke: 1px white;
-    font-family: "Gochi Hand", cursive;
-    max-width: 100%; }
-  
-  .texto {
-    font-size: 1.5em;
-    letter-spacing: 1px;
-    text-align: center; 
-    font-family: "Gochi Hand", cursive;}
-  
-  .productos-container {
-    position: relative;
-    overflow: hidden;
-    margin: 10px;
-    border-radius: 5px; }
-  
-  .productos-container img {
-    transition: all 0.8s; }
-  
-  .productos-container:hover img {
-    transform: scale(1.2); }
-  
-  .productos-detalles {
-    position: absolute;
-    bottom: 20px;
-    left: 25px;
-    z-index: 9000; }
-  
-  .productos-detalles a {
-    text-decoration: none;
-    color: rgb(0, 0, 0); }
-  
-  .bg-light-grey {
-    background-color: #f5f5f5; }
-  
-  .textoUbicacion {
-    font-size: 2em;
-    text-align: center;
-    color: white;
-    -webkit-text-stroke: 1px black;
-    font-family: "Gochi Hand", cursive; }
+  height: 200px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
 
-    .btnComprar{
-      position: relative;
-      right: 25px;
-    }
-  .carousel {
-    min-height: 240px;
-    padding: 40px;
-    border-radius: 2px;
-    text-align: center;
-    align-items: center; }
-  
-  .carousel p {
-    font-size: 16px;
-    font-weight: 400; }
-  
-  .carousel-indicators li {
-    display: none; }
-  
-  .carousel-control-next, .carousel-control-prev {
-    color: white; }
-  
-  .carousel-container {
-    max-width: 800px;
-    margin: 0 auto; }
-  
-  .control-button {
-    font-size: 60px; }
-  
-  .rating ion-icon {
-    color: #ffb944;
-    font-size: 26px; }
-  
-  .comentario-user {
-    max-width: 240px;
-    margin: 0 auto;
-    text-align: left; }
-  
-  .comentario-user h6 {
-    margin-bottom: 0px; }
-  
-  .comentario-user img {
-    border-radius: 50%;
-    max-width: 50px; }
-  
-  #redesSociales {
-    position: fixed;
-    bottom: 0;
-    left: 10px; }
-  
-  .redes {
-    color: black;
-    font-size: 40px; }
-  
-  .socialmedia {
-    text-decoration: none; }
-    
- .hide{
+.logo:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.header {
+  min-width: 100%;
+  min-height: 100vh;
+  background-image: url(../Imagenes/header2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg-dark {
+  z-index: 20;
+  width: 100%;
+}
+
+.custom-alert {
+  background-color: rgba(226, 222, 3, 0.575);
+  text-align: center;
+  color: black;
+  border: none;
+}
+
+.custom-alert a {
+  text-decoration: none;
+  color: black;
+}
+
+.anclas {
+  color: white;
+  text-decoration: none;
+  font-family: "Gochi Hand", cursive;
+  font-size: 1.3em;
+  margin: 15px;
+  text-transform: uppercase;
+  transition: all 0.8s;
+  transform: scale(1.1);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+.navbar-light .navbar-toggler {
+  color: white;
+  border-color: white;
+}
+
+.anclas:hover {
+  background-color: #111107;
+  transition: all 0.8s;
+  transform: scale(1.2);
+}
+
+.text-header {
+  min-height: 60vh;
+  color: #111107;
+  -webkit-text-stroke: 1px white;
+  font-family: "Gochi Hand", cursive;
+  max-width: 100%;
+}
+
+.texto {
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "Gochi Hand", cursive;
+}
+
+.productos-container {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.productos-container img {
+  transition: all 0.8s;
+}
+
+.productos-container:hover img {
+  transform: scale(1.2);
+}
+
+.productos-detalles {
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+  z-index: 9000;
+}
+
+.productos-detalles a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.bg-light-grey {
+  background-color: #f5f5f5;
+}
+
+.textoUbicacion {
+  font-size: 2em;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  font-family: "Gochi Hand", cursive;
+}
+
+.btnComprar {
+  position: relative;
+  right: 25px;
+}
+
+.carousel {
+  min-height: 240px;
+  padding: 40px;
+  border-radius: 2px;
+  text-align: center;
+  align-items: center;
+}
+
+.carousel p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.carousel-indicators li {
   display: none;
-} 
+}
 
-    #carrito{
-    position: fixed;
-    bottom: 0;
-    right: 50px;
-    font-size: 70px; 
-    color: white;
-    }
+.carousel-control-next,
+.carousel-control-prev {
+  color: white;
+}
 
-    button {
-        color:yellow;
-        background-color: black;
-        padding: 5px;
-    }
-  
+.carousel-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
 
-  body {
-    background-color: rgba(93, 186, 214, 0.644); }
-  
-  .titulo {
-    color: #f5f5d2;
-    font-size: 3em;
-    -webkit-text-stroke: 1px black;
-    font-family: "Gochi Hand", cursive;
-    text-align: center; }
-    
-  
-  section {
-    padding: 30px; }
-  
-   p {
-    font-family: "Indie Flower", cursive;
-    text-transform: uppercase;
-    font-weight: 900;
-    text-align: center;
-    font-size: 1.2em; }
+.control-button {
+  font-size: 60px;
+}
 
-  h6 {
-    position: absolute;
-    right: 55%;
-    font-size: 1.2em;
-  }
+.rating ion-icon {
+  color: #ffb944;
+  font-size: 26px;
+}
 
-  #volver{
-    position: absolute;
-    left: 55%;
-  }
+.comentario-user {
+  max-width: 240px;
+  margin: 0 auto;
+  text-align: left;
+}
 
-  #comprar{
-    position: absolute;
-    left: 45%;
-  }
+.comentario-user h6 {
+  margin-bottom: 0px;
+}
+
+.comentario-user img {
+  border-radius: 50%;
+  max-width: 50px;
+}
+
+#redesSociales {
+  position: fixed;
+  bottom: 0;
+  left: 10px;
+}
+
+.redes {
+  color: black;
+  font-size: 40px;
+}
+
+.socialmedia {
+  text-decoration: none;
+}
+
+.hide {
+  display: none;
+}
+
+#carrito {
+  position: fixed;
+  bottom: 0;
+  right: 50px;
+  font-size: 70px;
+  color: white;
+}
+
+button {
+  color: yellow;
+  background-color: black;
+  padding: 5px;
+}
+
+
+body {
+  background-color: rgba(93, 186, 214, 0.644);
+}
+
+.titulo {
+  color: #f5f5d2;
+  font-size: 3em;
+  -webkit-text-stroke: 1px black;
+  font-family: "Gochi Hand", cursive;
+  text-align: center;
+}
+
+
+section {
+  padding: 30px;
+}
+
+p {
+  font-family: "Indie Flower", cursive;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+h6 {
+  position: absolute;
+  right: 55%;
+  font-size: 1.2em;
+}
+
+#volver {
+  position: absolute;
+  left: 55%;
+}
+
+#comprar {
+  position: absolute;
+  left: 45%;
+}
 
 .formulario {
-text-align: center;
-}
-label{
-    color: rgb(17, 17, 7);
-    -webkit-text-stroke: 1px white;
-    font-family: 'Gochi Hand', cursive;
-    padding: 10px;
-    font-size: 2em;
+  text-align: center;
 }
 
-input{
-    font-family: 'Gochi Hand', cursive;
-    color: black; 
-    font-size: 1em;
+label {
+  color: rgb(17, 17, 7);
+  -webkit-text-stroke: 1px white;
+  font-family: 'Gochi Hand', cursive;
+  padding: 10px;
+  font-size: 2em;
+}
+
+input {
+  font-family: 'Gochi Hand', cursive;
+  color: black;
+  font-size: 1em;
 }
 
 select {
   font-family: 'Gochi Hand', cursive;
-  color: black; 
+  color: black;
   font-size: 1em;
 }
 
 textarea {
-    min-width: 630px;
-    max-width: 630px;
-    min-height: 100px;
-    max-height: 100px;
+  min-width: 630px;
+  max-width: 630px;
+  min-height: 100px;
+  max-height: 100px;
 }
 
-.botonesCompra{
+.botonesCompra {
   margin-bottom: 3%;
   font-family: 'Gochi Hand', cursive
 }
 
-.textoCarrito{
+.textoCarrito {
   font-family: 'Gochi Hand', cursive
 }
 
-.suma{
+.suma {
   display: none;
 }
-.resta{
+
+.resta {
   display: none;
 }
 
 
-@media (max-width: 500px){
-    textarea {
+@media (max-width: 500px) {
+  textarea {
     min-width: 320px;
     max-width: 320px;
-    }
-    label {
-        font-size: 1.5em;
-    }
-    #volver{
-      position: absolute;
-      left: 50%;
-    }
-  
-    #comprar{
-      position: absolute;
-      left: 25%;
-    }
+  }
 
-    .titulo{
-      font-size: 2em;
-    }
+  label {
+    font-size: 1.5em;
+  }
 
-    .btnComprar{
-      position: relative;
-      right: 45px;
-    }
-    .btnVaciar{
-      position: relative;
-      right: 35px;
-    }
-    .total{
-      display: none;
-    }
+  #volver {
+    position: absolute;
+    left: 50%;
+  }
 
-    .pagar{
-      position: relative;
-     right: 50px;
-    }
-    .suma{
-      display: none;
-    }
-    .resta{
-      display: none;
-    }
-    .header{
-      background-size: 100vw 100vh;
-    }
+  #comprar {
+    position: absolute;
+    left: 25%;
+  }
+
+  .titulo {
+    font-size: 2em;
+  }
+
+  .btnComprar {
+    position: relative;
+    right: 45px;
+  }
+
+  .btnVaciar {
+    position: relative;
+    right: 35px;
+  }
+
+  .total {
+    display: none;
+  }
+
+  .pagar {
+    position: relative;
+    right: 50px;
+  }
+
+  .suma {
+    display: none;
+  }
+
+  .resta {
+    display: none;
+  }
+
+  .header {
+    background-size: 100vw 100vh;
+  }
 }
 
-  
-  @media (max-width: 1024px) {
-    .header {
-       background-image: url(../Imagenes/responsive.custom.jpg);
-      background-size: 100vw 100vh;
-      text-align: right; }
-    .logo {
-      height: 70px; }
-    .control-button {
-      font-size: 30px; }
 
-      .suma{
-        display: none;
-      }
-      .resta{
-        display: none;
-      }
+@media (max-width: 1024px) {
+  .header {
+    background-image: url(../Imagenes/responsive.custom.jpg);
+    background-size: 100vw 100vh;
+    text-align: right;
+  }
 
-    }
-  
+  .logo {
+    height: 70px;
+  }
+
+  .control-button {
+    font-size: 30px;
+  }
+
+  .suma {
+    display: none;
+  }
+
+  .resta {
+    display: none;
+  }
+
+}
