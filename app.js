@@ -200,8 +200,10 @@ const finalizarCompra = () => {
     datos.toggle("hide")
     comprar.toggle("hide")
     comentarios.toggle("hide")
-    $('.suma').toggle("hide")
-    $('.resta').toggle("hide")
+     $('.suma').toggle("hide")
+     $('.resta').toggle("hide")
+     $('.suma').toggle("suma")
+     $('.resta').toggle("resta")
 
 }
 

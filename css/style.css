@@ -160,9 +160,9 @@
   
   .socialmedia {
     text-decoration: none; }
-.hide{
+ .hide{
   display: none;
-}
+} 
 
     #carrito{
     position: fixed;
@@ -255,6 +255,13 @@ textarea {
   font-family: 'Gochi Hand', cursive
 }
 
+.suma{
+  display: none;
+}
+.resta{
+  display: none;
+}
+
 
 @media (max-width: 500px){
     textarea {
@@ -263,6 +270,45 @@ textarea {
     }
     label {
         font-size: 1.5em;
+    }
+    #volver{
+      position: absolute;
+      left: 50%;
+    }
+  
+    #comprar{
+      position: absolute;
+      left: 25%;
+    }
+
+    .titulo{
+      font-size: 2em;
+    }
+
+    .btnComprar{
+      position: relative;
+      right: 45px;
+    }
+    .btnVaciar{
+      position: relative;
+      right: 35px;
+    }
+    .total{
+      display: none;
+    }
+
+    .pagar{
+      position: relative;
+     right: 50px;
+    }
+    .suma{
+      display: none;
+    }
+    .resta{
+      display: none;
+    }
+    .header{
+      background-size: 100vw 100vh;
     }
 }
 
@@ -275,5 +321,14 @@ textarea {
     .logo {
       height: 70px; }
     .control-button {
-      font-size: 30px; } }
+      font-size: 30px; }
+
+      .suma{
+        display: none;
+      }
+      .resta{
+        display: none;
+      }
+
+    }
   

@@ -80,9 +80,9 @@
                         <th scope="col" class="col-12 mb-2 col-md-4">Código</th>
                         <th scope="col"  class="col-12 mb-2 col-md-4">Producto</th>
                         <th scope="col"  class="col-12 mb-2 col-md-4">Cantidad</th>
-                        <th></th>
+                        <th class="total"></th>
                         <th scope="col" class="action hide col-12 mb-2 col-md-4">Acción</th>
-                        <th scope="col"  class="col-12 mb-2 col-md-4">Total</th>
+                        <th scope="col"  class="col-12 mb-2 col-md-4 total">Total</th>
                     </tr>
                 </thead>
                 <tbody id="items"  class="col-12 mb-2 col-md-4"></tbody>
@@ -98,7 +98,7 @@
             <template id="template-footer" >
                 <th scope="row" colspan="1">Total productos</th>
                 <td>10</td>
-                <td class="text-center">
+                <td class="btnVaciar">
                     <button class="btn btn-warning btn-sm" id="vaciar-carrito">
                         VACIAR TODO
                     </button>
@@ -109,7 +109,7 @@
                     </button>
                 </td>
 
-                <td class="font-weight-bold"> <b> TOTAL: $ <span>5000</span></b></td>
+                <td class="font-weight-bold pagar"> <b> TOTAL: $ <span>5000</span></b></td>
             </template>
         </div>
         <div  class="col-12 mb-2 col-md-4" id="sumar">
@@ -126,7 +126,7 @@
                         -
                     </button>
                 </td>
-                <td> <b>$ <span>500</span></b></td>
+                <td class="total"> <b>$ <span >500</span></b></td>
             </tr>
         </template>
     </div>
