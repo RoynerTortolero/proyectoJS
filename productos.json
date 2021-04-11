@@ -1,0 +1,44 @@
+[
+    {
+    "productoid": 1,
+    "nombre": "Suerter de homero",
+    "stock": 30,
+    "precio": 1200,
+    "img": "Imagenes/sueter.jpg"
+},
+{
+    "productoid": 2,
+    "nombre": "Camisa Todos los personajes",
+    "stock": 10,
+    "precio": 2000,
+    "img": "Imagenes/camisa.jpg"
+},
+{
+    "productoid": 3,
+    "nombre": "Remera Tom y Daly",
+    "stock": 22,
+    "precio": 800,
+    "img": "Imagenes/franela.jpg"
+},
+{
+    "productoid": 4,
+    "nombre": "Cuadro beatles",
+    "stock": 15,
+    "precio": 3500,
+    "img": "Imagenes/cuadro1.jpg"
+},
+{
+    "productoid": 5,
+    "nombre": "Cuadro Bar de mouse",
+    "stock": 10,
+    "precio": 3200,
+    "img": "Imagenes/cuadro2.jpg"
+},
+{
+    "productoid": 6,
+    "nombre": "Cuadro hogar",
+    "stock": 15,
+    "precio": 2200,
+    "img": "Imagenes/cuadro3.jpg"
+}
+]
