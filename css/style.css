@@ -188,6 +188,13 @@
   left: 10px;
 }
 
+#flechaArriba {
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+}
+
+
 .redes {
   color: black;
   font-size: 40px;

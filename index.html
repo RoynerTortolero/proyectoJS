@@ -18,14 +18,17 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="Imagenes/favicon.jpeg" type="image/x-icon" />
     <script defer src=app.js></script>
-    <title>Desafio 5</title>
+    <script defer src=variables.js></script>
+    <script defer src=validarForm.js></script>
+    <script defer src=scrolling.js></script>
+    <title>Springfield Shopping</title>
 </head>
 
 <body>
     <!--Header-->
     <header id="header" class="header">
 
-        <div class="alert alert-warning alert-dismissible fade show custom-alert" role="alert">
+        <div class="alert alert-warning alert-dismissible fade show custom-alert" role="alert"  id="arribaDeTodo">
             <strong>¡D'oh...!</strong> Gracias por visitarnos, conoce nuestros productos haciendo <a
                 href="#Productos"><strong>Clic Aquí</strong></a>
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
@@ -44,13 +47,13 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link anclas" aria-current="page" href="#Productos">Productos</a>
+                                <a id="link1Productos" class="nav-link anclas" aria-current="page">Productos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link anclas" href="#ubicacion">Ubicación</a>
+                                <a id="link2Ubicacion"class="nav-link anclas">Ubicación</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link anclas" href="#contacto">Contacto</a>
+                                <a id="link3Contacto" class="nav-link anclas">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -181,7 +184,6 @@
             <br> <br>
             <input type="submit" value="COMPRAR" id="comprar" onclick="validarForm()"
                 class="btn btn-warning btn-sm hide">
-            </fieldset>
         </form>
     </div>
     <div class="botonesCompra">
@@ -358,6 +360,12 @@
             <a href="https://api.whatsapp.com/send?phone=+54 9 1132260689&text=Hola%20me%20gustaría%20obtener%20mas%20información%20sobre%20el%20hostel%20springfield,%20Gracias!!"
                 target="_blank" class="socialmedia">
                 <ion-icon name="logo-whatsapp" class="redes"></ion-icon>
+            </a>
+        </div>
+
+        <div>
+            <a id="flechaArriba" onclick="desplazarMe('arribaDeTodo')">
+                <ion-icon name="arrow-up-circle-outline" class="redes"></ion-icon>
             </a>
         </div>
         <!-- <a href="" class="carri">

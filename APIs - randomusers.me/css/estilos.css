@@ -1,0 +1,17 @@
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+table {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.ancho {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.lateral-izquierdo {
+    margin-left: 3% !important;
+}

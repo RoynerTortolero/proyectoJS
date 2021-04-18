@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>coderbook</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/materialize.min.js"></script>
+    <script src="js/JQuery-3.5.1.min.js"></script>
+    <script defer src="js/coderbook.js"></script>
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper blue darken-3">
+          <a href="#" class="brand-logo left white-text lateral-izquierdo">coderbook</a>
+          <ul id="nav-mobile" class="right">
+            <li><a class="btn-flat waves-effect waves-light"><i class="material-icons white-text">search</i></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div id="cargando" class="center">
+      <br><br>
+      <i class="medium material-icons blue-text">people</i>
+      <br><br>
+      <br><br>
+      <div class="preloader-wrapper medium active">
+        <div class="spinner-layer spinner-blue-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contenido" class="center ancho" style="display: none;">
+      <table id="tabladeresultado" class="responsive-table">
+        <tbody>
+        <!-- Todo el contenido se carga desde la API -->
+        </tbody>
+      </table>
+    </div>
+    </div>
+  </body>
+</html>
