@@ -1,5 +1,4 @@
 const desplazarMe = (titulo, vel) => {
-    debugger
     $('html, body').animate({
        scrollTop: $(`#${titulo}`).offset().top
     }, vel)
