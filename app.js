@@ -93,7 +93,7 @@ const pintarCarrito = () => {
     localStorage.setItem('carro', JSON.stringify(carro))
 }
 
-// Pinto vacio la tabla cuando no tiene elementos 
+// Pinto vacio la tabla del carrito cuando no tiene elementos 
 
 const pintarCuadro = () => {
     footer.innerHTML = '';
@@ -149,29 +149,29 @@ const pintarCuadro = () => {
 }
 
 
-// Boton que suma  o resta elementos ya cargados
-const btnAccion = e => {
-    if (e.target.classList.contains('btn-dark')) {
+// Boton que suma  o resta elementos ya cargados 
+// const btnAccion = e => {
+//     if (e.target.classList.contains('btn-dark')) {
 
-        const producto = carro[e.target.dataset.id]
-        producto.cantidad++
-        carro[e.target.dataset.id] = {
-            ...producto
-        }
-        pintarCarrito();
-    }
+//         const producto = carro[e.target.dataset.id]
+//         producto.cantidad++
+//         carro[e.target.dataset.id] = {
+//             ...producto
+//         }
+//         pintarCarrito();
+//     }
 
-    if (e.target.classList.contains('btn-warning')) {
+//     if (e.target.classList.contains('btn-warning')) {
 
-        const producto = carro[e.target.dataset.id]
-        producto.cantidad--
-        if (producto.cantidad === 0) {
-            delete carro[e.target.dataset.id]
-        }
-        pintarCarrito();
-    }
-    e.stopPropagation()
-}
+//         const producto = carro[e.target.dataset.id]
+//         producto.cantidad--
+//         if (producto.cantidad === 0) {
+//             delete carro[e.target.dataset.id]
+//         }
+//         pintarCarrito();
+//     }
+//     e.stopPropagation()
+// }
 
 //Mostrar y esconder formulario de compra e index
 const finalizarCompra = () => {
